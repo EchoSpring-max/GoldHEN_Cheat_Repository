@@ -2,7 +2,7 @@
   "name": "Kingdom Hearts: HD 1.5 + 2.5 ReMIX",
   "id": "CUSA05933",
   "version": "01.04",
-  "process": "eboot.bin",
+  "process": "kingdom1.elf",
   "mods": [
     {
       "name": "Max Money",
@@ -14,9 +14,27 @@
           "off": "F4230F"
         }
       ]
+    },
+    {
+      "name": "No Collision (Noclip)",
+      "description": "Disables world collision for Sora. Turn this off before changing rooms or starting cutscenes. Restart the game to unload the hook completely.",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3C9B20",
+          "on": "50488B0578176C024C39F8750441830F1058498D7F20E88590D9FFE983D5D9FF",
+          "off": "50488B0578176C024C39F87504418327EF58498D7F20E88590D9FFE983D5D9FF"
+        },
+        {
+          "offset": "1670BA",
+          "on": "E9612A260090909090",
+          "off": "E9612A260090909090"
+        }
+      ]
     }
   ],
   "credits": [
-    "TylerMods"
+    "TylerMods",
+    "OpenAI Codex"
   ]
 }
