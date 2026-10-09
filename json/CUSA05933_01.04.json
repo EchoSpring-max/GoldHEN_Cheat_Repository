@@ -31,6 +31,23 @@
           "off": "E9612A260090909090"
         }
       ]
+    },
+    {
+      "name": "Instant Barrel Break (Phil Training - Beta)",
+      "description": "Makes negative HP changes instantly empty non-party targets, including Phil's training barrels. Enable only during barrel training; enemies can also be defeated in one hit while this is on.",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3C9B40",
+          "on": "4585E4791141F68788000000207507458B663C41F7DC31DB4503663CE9F2F8DAFF",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "17944D",
+          "on": "E9EE06250090",
+          "off": "31DB4503663C"
+        }
+      ]
     }
   ],
   "credits": [
